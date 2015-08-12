@@ -1,0 +1,43 @@
+start:
+  - hired	by	arg1	arg2	ORGANIZATION
+  - hired	NONE	arg2	arg1	ORGANIZATION
+  - founded	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - co-founded	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - cofounded	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - established	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - created ORGANIZATION	arg1	arg2	ORGANIZATION
+  - built	ORGANIZATION	arg1	arg2	ORGANIZTION
+  - launched ORGANIZATION	arg1	arg2	ORGANIZATION
+  - helped launch ORGANIZATION	arg1	arg2	ORGANIZATION
+  - was founded	by	NONE	arg2	arg1	ORGANIZATION
+  - started	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - started	working	arg1	arg2	ORGANIZATION
+  - joined	NONE	arg1	arg2	ORGANIZATION
+  - joins	NONE	arg1	arg2	ORGANIZATION
+  - was hired	by	arg1	arg2	ORGANIZATION
+  - hired	NONE	arg2	arg1	ORGANIZATION
+  - has hired	NONE	arg2	arg1	ORGANIZATION
+  - entered	NONE	arg1	arg2	ORGANIZATION
+  - came	to ORGANIZATION	arg1	arg2	ORGANIZATION
+  - became	NONE	arg1	arg2	ORGANIZATION
+  - leads	NONE	arg1	arg2	ORGANIZATION
+  - was transferred	to ORGANIZATION	arg1	arg2	ORGANIZATION
+  - began working	for	ORGANIZATION	arg1	arg2	ORGANIZATION
+end:
+  - gave up	NONE	arg1	arg2	ORGANIZATION
+  - left	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - quit	ORGANIZATION	arg1	arg2	ORGANIZATION
+  - retired	from	arg1	arg2	ORGANIZATION
+  - resigned	from	arg1	arg2	ORGANIZATION
+  - would resign	as	arg1	arg2	ORGANIZATION
+  - was fired	from	arg1	arg2	ORGANIZATION
+hold:
+  - headed	NONE	arg1	arg2	ORGANIZATION
+  - led	NONE	arg1	arg2	ORGANIZATION
+  - continued to work	NONE	arg1	arg2	ORGANIZATION
+  - served as acting	NONE	arg1	arg2	ORGANIZATION
+  - served	as	arg1	arg2	ORGANIZATION
+  - serves	as	arg1	arg2	ORGANIZATION
+  - serves	on	arg1	arg2	ORGANIZATION
+  - re-hired NONE	arg2	arg2	ORGANIZATION
+  - rehired	NONE	arg2	arg2	ORGANIZATION

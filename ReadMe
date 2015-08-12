@@ -1,0 +1,32 @@
+This project classifies the openIE Relations in the following category
+Spouse
+	-Start
+	-End
+	-Range
+	-hold
+	-irrelevant
+
+Title
+	-Start
+	-End
+	-Range
+	-hold
+	-irrelevant
+
+Employee
+	-Start
+	-End
+	-Range
+	-hold
+	-irrelevant
+
+Residence
+	-Start
+	-End
+	-Range
+	-hold
+	-irrelevant
+
+The patterns are stored in the files of the corresponding relation. The exact path of the files are stored
+in the default.properties
+also the openIE output, the 2nd argument cannot be a Temporal Expression. If so then the next non-temporal argument is considered as the 2nd argument 

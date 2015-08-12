@@ -1,0 +1,25 @@
+start:
+  - married	NONE	arg1	arg2	PERSON
+  - has been married	NONE	arg1	arg2	PERSON
+  - had been married	NONE	arg1	arg2	PERSON
+  - has been happily married	NONE	arg1	arg2	PERSON
+  - has been happily married	NONE	arg1	arg2	PERSON
+  - had married	NONE	arg1	arg2	PERSON
+  - would marry	NONE	arg1	arg2	PERSON
+  - will marry	NONE	arg1	arg2	PERSON
+  - weds NONE	arg1	arg2	PERSON
+  - got married	NONE	arg1	arg2	PERSON
+  - tied	the knot	arg1	arg2	PERSON
+end:
+  - divorced	NONE	arg1	arg2	PERSON
+  - broke up	NONE	arg1	arg2	PERSON
+  - separated	NONE	arg1	arg2	PERSON
+  - split up	with	arg1	arg2	PERSON
+  - would divorce	NONE	arg1	arg2	PERSON
+  - left	PERSON	arg1	arg2	PERSON
+  - left	his wife	arg1	arg2	PERSON
+  - left	her husband	arg1	arg2	PERSON
+hold:
+  - remarried	NONE	arg1	arg2	PERSON
+  - is married	to	arg1	arg2	PERSON
+  - is married	with	arg1	arg2	PERSON

@@ -1,0 +1,213 @@
+- alternate_names	9	known	as	arg1	arg2	NONE	NONE	NONE
+- date_dissolved	1	was closed down	in	arg1	arg2	DATE	NONE	NONE
+- top_members_employees	9	HEADJOBTITLE of	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	HEADJOBTITLE at	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	HEADJOBTITLE for	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	HEADJOBTITLE in	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	lead	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	head	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	run	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	resign	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	step down	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	chair	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	lead	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	head	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	run	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	appoint	NONE	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	publish	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	appointed	NONE	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	appointing	NONE	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	appoints	NONE	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	chaired	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	chairing	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	chairing	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	chairs	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	chairs	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	headed	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	heading	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	heads	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	is headed	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	is led	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	is run	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	leading	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	leads	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	led	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	published	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	publishes	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	publishing	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	ran	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	resigned	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	resigning	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	resigns	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	running	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	runs	NONE	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	stepped down	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	stepping down	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	steps down	as	arg2	arg1	PERSON	NONE	NONE
+- top_members_employees	9	was headed	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	was led	by	arg1	arg2	PERSON	NONE	NONE
+- top_members_employees	9	was run	by	arg1	arg2	PERSON	NONE	NONE
+- alternate_names	1	means	NONE	arg1	arg2	PROPERNOUN	NONE	NONE
+- alternate_names	1	known	as	arg1	arg2	PROPERNOUN	NONE	NONE
+- subsidiaries	9	subsidiary of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- subsidiaries	9	branch of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- subsidiaries	9	wing of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- subsidiaries	9	unit of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- subsidiaries	9	part of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- subsidiaries	9	parent company of	NONE	arg1	arg2	ORGANIZATION	NONE	NONE
+- subsidiaries	9	corporate parent of	NONE	arg1	arg2	ORGANIZATION	NONE	NONE
+- founded_by	9	founded	NONE	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	founded	by	arg1	arg2	PERSON	NONE	NONE
+- founded_by	9	started	ORGANIZATION	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	started	by	arg1	arg2	PERSON	NONE	NONE
+- founded_by	9	founder of	NONE	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	co-founder of	NONE	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	set up	ORGANIZATION	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	set up	by	arg1	arg2	PERSON	NONE	NONE
+- founded_by	9	formed	NONE	arg2	arg1	PERSON	NONE	NONE
+- founded_by	9	formed	by	arg1	arg2	PERSON	NONE	NONE
+- city_of_headquarters	1	was situated	at	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was situated	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was located	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was located	NONE	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was headquartered	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was based	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was based	NONE	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	was	NONE	arg2	arg1	CITY	NONE	home
+- city_of_headquarters	1	situate	at	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	situate	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	organization in	NONE	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	operating	out of	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	operates	out of	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	operated	out of	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	operate	out of	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	located	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	located	City	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is situated	at	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is situated	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is located	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is located	City	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is headquartered	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is based	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is based	City	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	is	NONE	arg2	arg1	CITY	NONE	home
+- city_of_headquarters	1	headquartered	at	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	headquartered	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	be	NONE	arg2	arg1	CITY	NONE	home
+- city_of_headquarters	1	based	in	arg1	arg2	CITY	NONE	NONE
+- city_of_headquarters	1	based	City	arg1	arg2	CITY	NONE	NONE
+- country_of_headquarters	1	headquartered	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	based	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	be	NONE	arg2	arg1	COUNTRY	NONE	home
+- country_of_headquarters	1	operate	out of	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	situate	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	situate	at	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	headquartered	at	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	taxpayer of	NONE	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	operated	out of	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	operating	out of	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	operates	out of	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is situated	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is situated	at	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	was situated	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	was situated	at	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is based	NONE	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is located	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is located	NONE	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	was based	NONE	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	was located	in	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	was located	NONE	arg1	arg2	COUNTRY	NONE	NONE
+- country_of_headquarters	1	is	NONE	arg2	arg1	COUNTRY	NONE	home
+- country_of_headquarters	1	was	NONE	arg2	arg1	COUNTRY	NONE	home
+- stateorprovince_of_headquarters	1	headquartered	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	based	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	be	NONE	arg2	arg1	STATEORPROVINCE	NONE	home
+- stateorprovince_of_headquarters	1	operate	out of	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	situate	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	situate	at	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	headquartered	at	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	taxpayer of	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	organization in	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	based	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	located	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	located	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	operated	out of	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	operating	out of	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	operates	out of	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is situated	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is situated	at	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	was situated	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	was situated	at	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is based	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is located	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is located	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	was based	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	was located	in	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	was located	NONE	arg1	arg2	STATEORPROVINCE	NONE	NONE
+- stateorprovince_of_headquarters	1	is	NONE	arg2	arg1	STATEORPROVINCE	NONE	home
+- stateorprovince_of_headquarters	1	was	NONE	arg2	arg1	STATEORPROVINCE	NONE	home
+- parents	9	subsidiary of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	branch of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	be	part of	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	part of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	wing of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	unit of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	division of	ORGANIZATION	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	parent of	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	owns	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	parent company of	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	corporate parent of	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	buy	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	owner of	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	acquired	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	includes	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	take over	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	purchased	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	publisher of	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	to sell	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	is	part of	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	was	part of	arg1	arg2	ORGANIZATION	NONE	NONE
+- parents	9	own	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	owned	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	owning	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	bought	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	buying	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	buys	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	acquire	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	acquires	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	acquiring	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	include	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	included	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	including	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	takes over	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	taking over	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	took over	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	purchase	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	purchases	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	purchasing	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	sell	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	selling	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	sold	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- parents	9	sells	ORGANIZATION	arg2	arg1	ORGANIZATION	NONE	NONE
+- date_founded	1	founded	in	arg1	arg2	DATE	NONE	NONE
+- date_founded	1	established	in	arg1	arg2	DATE	NONE	NONE
+- date_founded	1	started	in	arg1	arg2	DATE	NONE	NONE
+- date_founded	1	was created	in	arg1	arg2	DATE	NONE	NONE
+- date_founded	1	set up	in	arg1	arg2	DATE	NONE	NONE
+- member_of	1	member of	NONE	arg1	arg2	ORGANIZATION	NONE	NONE
+- member_of	1	wing of	NONE	arg1	arg2	ORGANIZATION	NONE	NONE
+- member_of	1	part of	NONE	arg1	arg2	ORGANIZATION	NONE	NONE
+- members	9	member of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- members	9	wing of	NONE	arg2	arg1	ORGANIZATION	NONE	NONE
+- number_of_employees_members	1	has	NONE	arg1	arg2	INTEGER	NONE	INTEGER members
+- number_of_employees_members	1	has	NONE	arg1	arg2	INTEGER	NONE	INTEGER people
+- number_of_employees_members	1	has	NONE	arg1	arg2	INTEGER	NONE	INTEGER employees
+- number_of_employees_members	1	have	NONE	arg1	arg2	INTEGER	NONE	INTEGER members
+- number_of_employees_members	1	have	NONE	arg1	arg2	INTEGER	NONE	INTEGER people
+- number_of_employees_members	1	have	NONE	arg1	arg2	INTEGER	NONE	INTEGER employees
+- number_of_employees_members	1	employs	NONE	arg1	arg2	INTEGER	NONE	INTEGER members
+- number_of_employees_members	1	employs	NONE	arg1	arg2	INTEGER	NONE	INTEGER people
+- number_of_employees_members	1	employs	NONE	arg1	arg2	INTEGER	NONE	INTEGER employees
+- number_of_employees_members	1	claims	NONE	arg1	arg2	INTEGER	NONE	INTEGER members
+- number_of_employees_members	1	claims	NONE	arg1	arg2	INTEGER	NONE	INTEGER people
+- number_of_employees_members	1	claims	NONE	arg1	arg2	INTEGER	NONE	INTEGER employees

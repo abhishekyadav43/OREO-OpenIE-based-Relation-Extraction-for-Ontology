@@ -1,0 +1,23 @@
+start:
+  - started living	NONE	arg1	arg2	LOCATION
+  - born	in	arg1	arg2	LOCATION
+  - was born	in	arg1	arg2	LOCATION
+  - emigrated	to	arg1	arg2	LOCATION
+  - immigrated	to	arg1	arg2	LOCATION
+  - fled	to LOCATION	arg1	arg2	LOCATION
+  - moved	to LOCATION	arg1	arg2	LOCATION
+  - moved permanently	to LOCATION	arg1	arg2	LOCATION
+  - arrived	in LOCATION	arg1	arg2	LOCATION
+  - left	for LOCATION	arg1	arg2	LOCATION
+  - settled	in LOCATION	arg1	arg2	LOCATION
+  - relocated	to	arg1	arg2	LOCATION
+  - re-located	to	arg1	arg2	LOCATION
+  - came	to LOCATION	arg1	arg2	LOCATION
+end:
+  - left	LOCATION	arg1	arg2	LOCATION
+  - emigrated	from	arg1	arg2	LOCATION
+  - immigrated	from	arg1	arg2	LOCATION
+hold:
+  - lives	in	arg1	arg2	LOCATION
+  - lived	in	arg1	arg2	LOCATION
+  - resides	in	arg1	arg2	LOCATION

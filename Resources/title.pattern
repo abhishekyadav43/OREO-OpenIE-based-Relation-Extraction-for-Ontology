@@ -1,0 +1,32 @@
+start:
+  - was appointed	TITLE	arg1	arg2	TITLE
+  - was appointed	as TITLE	arg1	arg2	TITLE
+  - was named	TITLE	arg1	arg2	TITLE
+  - was	the TITLE	arg1	arg2	TITLE
+  - was TITLE	arg1	arg2	TITLE
+  - became	TITLE	arg1	arg2	TITLE
+  - was elected	NONE	arg1	arg2	TITLE
+  - was promoted	to	arg1	arg2	TITLE
+  - assumed	the position	arg1	arg2	TITLE
+  - assumed	the office	arg1	arg2	TITLE
+  - assumed	the role	arg1	arg2	TITLE
+  - took over	as	arg1	arg2	TITLE
+  - took over	the position	arg1	arg2	TITLE
+  - took over	the role	arg1	arg2	TITLE
+  - took over	the office	arg1	arg2	TITLE
+  - was sworn in	as	arg1	arg2	TITLE
+end:
+  - was promoted	from	arg1	arg2	TITLE
+  - has resigned	as	arg1	arg2	TITLE
+  - resigned	as	arg1	arg2	TITLE
+  - was succeeded	as	arg1	arg2	TITLE
+  - was fired	as	arg1	arg2	TITLE
+hold:
+  - serves	as	arg1	arg2	TITLE
+  - served	as	arg1	arg2	TITLE
+  - has acted	as	arg1	arg2	TITLE
+  - was reelected	NONE	arg1	arg2	TITLE
+  - was re-elected	NONE	arg1	arg2	TITLE
+  - is	a TITLE	arg1	arg2	TITLE
+  - is	the TITLE	arg1	arg2	TITLE
+  - is	TITLE	arg1	arg2	TITLE
