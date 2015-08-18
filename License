@@ -1,0 +1,47 @@
+OpenIE based Relation Extraction for Ontology(OREO) Software License Agreement
+
+OpenIE based Relation Extraction for Ontology Software
+(C) 2014-2015, Indian Institute of Technology Delhi.
+
+Indian Institute of Technology Delhi(IITD), Korean Institute of Science and Technology Information(KISTI),
+Professor Mausam, Abhishek Yadav(Developers) give permission for you and your laboratory (University) 
+to use Relation and Event extraction software. This is system for extracting from the text information
+regarding certain attributes of entities present in the text, which can be a person or some type of organization.
+IITD and developers allow you to copy and modify this system for non-commercial purposes and distribute modifications
+on following conditions:
+
+1. This system is not used for any commercial purposes, or as a part of any other system which has commercial
+purposes.
+
+2. Any software derived from this system must carry prominent notices stating that
+you modified it along with the date modified.  The derivative must also carry prominent notices
+stating that it is released under this system's Software License Agreement
+
+If you wish to use this system for any commercial purposes, you will need to contact IITD or the
+developers to see if rights are available and to negotiate a commercial license and pay a fee.
+In that case please contact
+
+Prof. Mausam 
+Email : mausam@cse.iitd.ac.in
+or
+Abhishek Yadav
+Email : abhishekyadav43@gmail.com/mcs132540@cse.iitd.ac.in
+
+3. If utilization of the this software results in outcomes which will be
+published, please cite the IITD Developers.
+
+4. You can provide your feedback about the system or report bugs at
+abhishekyadav43@gmail.com/mcs132540@cse.iitd.ac.in
+Any reply or modification will be communicated by mail
+
+
+5. Any risk associated with using the this software at your organization is
+with you and your organization. This software is experimental in nature and is made
+available as a research courtesy "AS IS," without obligation by IITD to provide
+accompanying services or support.
+
+
+IITD AND THE AUTHORS EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES REGARDING THE
+SOFTWARE, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES
+PERTAINING TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
