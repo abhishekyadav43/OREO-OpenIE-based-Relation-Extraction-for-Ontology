@@ -1,32 +1,69 @@
-This project classifies the openIE Relations in the following category
-Spouse
-	-Start
-	-End
-	-Range
-	-hold
-	-irrelevant
+# OREO-OpenIE-Relation-Extraction-for-Ontology
 
-Title
-	-Start
-	-End
-	-Range
-	-hold
-	-irrelevant
+This project contains the Relation and Event Extarction system of Indian Institute of Technology Delhi (IITD). This is system for extracting from the text information regarding certain attributes of entities present in the text, which can be a person or some type of organization. 
 
-Employee
-	-Start
-	-End
-	-Range
-	-hold
-	-irrelevant
+For e.g.
+“Pranab Kumar Mukherjee is the 13th and current President of India.”
+Entity 		: Pranab Kumar Mukherjee
+Relation 	: per:title
+Slot-Fill 	: President
 
-Residence
-	-Start
-	-End
-	-Range
-	-hold
-	-irrelevant
+It uses an alternate paradigm for information extraction that is based on domain independent semantic processing of sentence called Open Information Extraction(OpenIE).
 
-The patterns are stored in the files of the corresponding relation. The exact path of the files are stored
-in the default.properties
-also the openIE output, the 2nd argument cannot be a Temporal Expression. If so then the next non-temporal argument is considered as the 2nd argument 
+
+Running : 
+In the project the class ExtractionEngine.java is the main entry point to the system. It conatains method "processText" which take 2 argument the text input to be processed and second a boolean variable to indicate whether to use the dependency patterns or not. Thsi function can be 
+The processText function performs the extraction in pipeline with steps
+1. Grammatical Annotations using Stanford corenlp tool (TextAnnotatorKBP.java)
+2. Gets OpenIE extractions
+3. normalizes the extraction (PreProcessTextNormalization.java)
+4. Does pattern matching over the normalized extraction (KBPRelationClassifier.java)
+5. Extracts slotfill if the pattern matches (getSlotFill4 function)
+6. Performs lexico-semantic extractions over original sentence (LexicalClassifier.java)
+7. Extracts attributes using dependency patterns if boolean is true (DependencyAnnotation.java)
+
+
+Normalizer :
+The normalizer uses many gazetteer list to nomalize the openIE extarctions. The list are located in Resources/KBP. The normalizations are
+• PERSON
+• LOCATION
+• ORGANIZATION
+• JOBTITLE
+• HEADJOBTITLE
+• COUNTRY
+• CITY
+• STATEORPROVINCE
+• NATIONALITY
+• INTEGER
+• DATE
+• CRIME
+• SCHOOL
+• RELIGION
+
+This list are not exclusive and can be modified by adding the desired entry in the related pattern File.
+
+Pattern Files.
+
+KBP :
+The KBP patterns are present in Resources/KBP/all.patterns. It has following rule structure
+1. Target relation: this represents the relation (e.g., per:cause of death) being mapped to with this rule.
+2. Entity in: This represents where the input entity (e.g., Steve Jobs) should be present. Possible values are arg1, arg2, and rel.
+3. Slotfill in: This maintains the part of the extraction from where the slot needs to be extracted. Possible values are arg1, arg2 and rel.
+4. Slotfill Type: This is the type of the slotfill and can take values from any entity type defined at entity extraction phase.
+5. Arg1Terms: This maintains any specific words that should be present in arg1.
+6. Relation Terms: This maintains any specific words that should be present in the relation phrase.
+7. Arg2BeginsWith: This maintains any specific words that arg2 should begin with
+
+new rules can be added in the file in the prescribed format.
+
+Lexico-semantic pattern :
+Currently there is not seperate file for lexico sematic patterns. These patterns are directly coded into LexicalClassifier.java 
+
+Dependency Pattern : 
+Dependency Patterns are present in file Resources/DependencyPathPattern. It has following pattern type
+"relationType	Node	Edge	Node 	Edge...........Node"
+e.g.
+per:employee or member of PERSON appos HEADJOBTITLE nmod:poss ORGANIZATION
+
+
+The path of all the files are present in Resources/default.properties and Resources/KBP/kbpDefault.properties. If any new normalization is to be added it can be added here with required modification in PreProcessTextNormalization.java
