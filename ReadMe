@@ -9,6 +9,7 @@ Relation 	: per:title
 Slot-Fill 	: President
 
 It uses an alternate paradigm for information extraction that is based on domain independent semantic processing of sentence called Open Information Extraction(OpenIE).
+Currently the system focuses on extracting some fixed number of relations for persons and organizations. However it could be modified to enable extractions for a particular domain.
 
 
 Running : 
@@ -40,13 +41,13 @@ The normalizer uses many gazetteer list to nomalize the openIE extarctions. The 
 • SCHOOL
 • RELIGION
 
-This list are not exclusive and can be modified by adding the desired entry in the related pattern File.
+This list are not exclusive and can be modified by adding the desired entry in the related gazetteer file. New domain specific gazatteer list can be added to the system with some modification in the "PreProcessTextNormalization.java" file.
 
 Pattern Files.
 
 KBP :
 The KBP patterns are present in Resources/KBP/all.patterns. It has following rule structure
-1. Target relation: this represents the relation (e.g., per:cause of death) being mapped to with this rule.
+1. Target relation: This represents the relation (e.g., per:cause of death) being mapped to with this rule.
 2. Entity in: This represents where the input entity (e.g., Steve Jobs) should be present. Possible values are arg1, arg2, and rel.
 3. Slotfill in: This maintains the part of the extraction from where the slot needs to be extracted. Possible values are arg1, arg2 and rel.
 4. Slotfill Type: This is the type of the slotfill and can take values from any entity type defined at entity extraction phase.
@@ -54,19 +55,26 @@ The KBP patterns are present in Resources/KBP/all.patterns. It has following rul
 6. Relation Terms: This maintains any specific words that should be present in the relation phrase.
 7. Arg2BeginsWith: This maintains any specific words that arg2 should begin with
 
-new rules can be added in the file in the prescribed format.
+The fields in the rules are tab separated
+e.g.
+per:country_of_death	1	died	at	arg1	arg2	COUNTRY	NONE	NONE
+
+All caps entry in a particular field specifies that the value is Normalized from the gazetteer lists. "ANY" and "NONE" are special types signifying that a particular field can contain any value or that field is not required to make the classification.
+New rules can be added in all.patterns file in the prescribed format.
 
 Lexico-semantic pattern :
 Currently there is not seperate file for lexico sematic patterns. These patterns are directly coded into LexicalClassifier.java 
 
-Dependency Pattern : 
+Dependency Pattern :
+It also uses Dependency parse of the text to extract relationships.  
 Dependency Patterns are present in file Resources/DependencyPathPattern. It has following pattern type
 "relationType	Node	Edge	Node 	Edge...........Node"
+where Nodes are the normalized or un-normalized tokens in the text and edgs are the relations between the nodes in the dependency parse of the text. Again the fields are tab separated.
 e.g.
-per:employee or member of PERSON appos HEADJOBTITLE nmod:poss ORGANIZATION
+per:employee_or_member_of PERSON appos HEADJOBTITLE nmod:poss ORGANIZATION
 
 
-The path of all the files are present in Resources/default.properties and Resources/KBP/kbpDefault.properties. If any new normalization is to be added it can be added here with required modification in PreProcessTextNormalization.java
+The path of all the files are present in Resources/default.properties and Resources/KBP/kbpDefault.properties. If any new normalization is to be added it can be added here.
 
 This project requires a list of libraries(jars) to be included in the classpath for execution. Following are the list to jars to be added to the classpath
 1. openie-assembly-4.1.4-SNAPSHOT.jar
